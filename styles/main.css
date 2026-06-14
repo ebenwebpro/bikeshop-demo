@@ -1,0 +1,51 @@
+/* Reset & Box Model */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: var(--space-sm);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Hero Component styling */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-lg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background-color: var(--color-paper);
+  max-width: 600px;
+  width: 100%;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: var(--space-sm);
+  margin-bottom: var(--space-md);
+  line-height: 1.15;
+}
+
+.hero-tagline {
+  font-family: var(--font-body);
+  color: var(--color-accent);
+  font-size: 1.125rem;
+  margin-top: var(--space-sm);
+  margin-bottom: var(--space-md);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

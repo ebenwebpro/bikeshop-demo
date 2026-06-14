@@ -1,0 +1,12 @@
+:root {
+  --color-ink: #1a1a1a;
+  --color-paper: #faf8f3;
+  --color-accent: #c8a24b;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-display: 'Georgia', serif;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --radius: 6px;
+  --shadow: 0 10px 30px -10px rgba(26, 26, 26, 0.12);
+}
